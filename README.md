@@ -1,6 +1,6 @@
 # Smart Agriculture Monitoring System - MQTT Python
 
-Aplikasi sistem komunikasi IoT menggunakan arsitektur publish-subscribe MQTT untuk memantau kondisi mikroklimat pertanian lokal.
+Aplikasi sistem komunikasi IoT menggunakan arsitektur publish-subscribe MQTT untuk memantau kondisi microclimate pertanian lokal.
 
 ## Persyaratan Awal
 1. Python 3.8+
@@ -12,3 +12,6 @@ Aplikasi sistem komunikasi IoT menggunakan arsitektur publish-subscribe MQTT unt
 2. Jalankan pusat pemantauan (Subscriber):
    ```bash
    python subscriber.py
+3. Jalankan node simulasi lapangan (Publisher) di terminal terpisah:
+   ```bash
+   python publisher.py
